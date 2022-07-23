@@ -10,18 +10,24 @@
   <body>
     <!-- Intro -->
     <div class="hero">
-      <header>
-        <h2>Portfolio</h2>
-      </header>
-
+      <nav class="nav">
+        <ul class="nav-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
       <div class="content">
+        <header>
+          <h2>Portfolio</h2>
+        </header>
         <h4>Hello, my name is</h4>
         <h1>Andy Alvarez</h1>
         <h3>I am located in California.</h3>
       </div>
     </div>
     <!-- About Me -->
-    <main class="about">
+    <main id="about" class="about">
       <article class="about-content">
         <img src="img/me.jpg" />
         <div class="about-text">
@@ -37,7 +43,7 @@
     </main>
     <!-- Contact -->
     <footer>
-      <div class="contact">
+      <div id="contact" class="contact">
         <h2>Contact Me</h2>
         <h4>You can contact me at any of the options below</h4>
         <ul>
