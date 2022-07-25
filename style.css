@@ -44,6 +44,7 @@ h4 {
 .about {
   width: 100%;
   padding: 100px 0px;
+  padding-bottom: 0;
 }
 .about img {
   height: auto;
@@ -72,7 +73,14 @@ h4 {
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
-  margin-bottom: 45px;
+  margin-bottom: 10px;
+}
+
+ol {
+  font-size: 18px;
+  color: grey;
+  padding-left: 16px;
+  line-height: 28px;
 }
 .contact h2 {
   color: orange;
@@ -138,4 +146,7 @@ a {
 
 .nav-items a:hover {
   color: orange;
+}
+.divider {
+  margin: 46px 30px;
 }
